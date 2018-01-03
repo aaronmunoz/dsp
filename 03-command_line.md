@@ -54,7 +54,14 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Command | Description
+> > ------- | -----------
+> > `ls -a` | Lists all the files in a directory, including hidden ones
+> > `ls -l` | Lists files in long format, no hidden files
+> > `ls -lh` | Lists files in long format, with the dates in human readable format, no hidden files
+> > `ls -lah` | Lists all files in long format, with the dates in human readable format, even hidden files
+> > `ls -t` | Orders listed files by last modified date
+> > `ls -Glp` | Lists files in long format, directories are displayed with '/' at the end, and directories are highlighted blue
 
 ---
 
@@ -62,7 +69,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs allows you to execute commands from standard input. xargs is particularly useful in combination with the find command. For example, `find *rough_draft* | xargs rm` would remove all files in a directory containing the string 'rough_draft'.
 
  
 
