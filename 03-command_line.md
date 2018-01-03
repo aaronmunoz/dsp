@@ -20,7 +20,18 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > Command | Description
+> > ------- | -----------
+> > pwd | Shows currently working directory path
+> > mkdir | Creates a directory
+> > rm | Removes a directory. The '-r' parameter deleters all children as well
+> > touch new_file_name.txt | Creates a file named 'new_file_name.txt'
+> > rm file_name | Deletes 'file_name'
+> > mv original_file_name new_file_name | Renames 'original_file_name' to 'new_file_name'
+> > ls -a | Lists all files in the directory, including hidden files
+> > mv my_file new_directory | Moves a file named 'my_file' to the directory 'new_directory'
+> > ditto -V /old_directory/ /new_directory/ | Copies content from 'old_directory' into 'new_directory' while listing the progress in the terminal
+> > tab | Not exactly a command, but useful to know for autocompleting paths
 
 ---
 
