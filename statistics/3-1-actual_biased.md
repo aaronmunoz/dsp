@@ -20,3 +20,4 @@ biased_pmf.Normalize()
 thinkplot.Pmfs([children_pmf, biased_pmf])
 thinkplot.Show(xlabel='Number of children in family', ylabel='PMF')
 ```
+![](https://github.com/aaronmunoz/dsp/blob/master/statistics/images/q2_pmf.png)
