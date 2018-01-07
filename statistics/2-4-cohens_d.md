@@ -28,3 +28,9 @@ print('Cohen\'s coefficient using pregnancy length: %f' % cohens_d(firsts.prglng
 
 print('Effect size is very small in both cases, though weight has a bigger effect size than pregnancy length')
 ```
+
+>> Cohen's coefficient using weight: -0.088673
+
+>> Cohen's coefficient using pregnancy length: 0.028879
+
+>> Effect size is very small in both cases, though weight has a bigger effect size than pregnancy length
