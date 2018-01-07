@@ -13,7 +13,7 @@ thinkplot.pmf(pmf, linewidth=0.1)
 thinkplot.Show(xlabel='Number', ylabel='PMF')
 ```
 
-Resulting Image:
+![](https://github.com/aaronmunoz/dsp/blob/master/statistics/images/q3_pmf.png)
 
 ## Generating the CDF:
 
@@ -23,3 +23,6 @@ cdf = thinkstats2.Cdf(random_numbers, label='random_number')
 thinkplot.cdf(cdf)
 thinkplot.Show(xlabel='Number', ylabel='CDF')
 ```
+![](https://github.com/aaronmunoz/dsp/blob/master/statistics/images/q3_cdf.png)
+
+> From the second chart, we can see that it is indeed random. PMF is a poor choice to model this kind of distribution since there are an infinited number of possible numbers between any two numbers.
