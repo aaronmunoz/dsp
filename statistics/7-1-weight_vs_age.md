@@ -18,6 +18,7 @@ thinkplot.Config(xlabel='Mother\'s Age',
                  axis=[13, 45, 3, 15],
                  legend=False)
 ```
+>> ![](https://github.com/aaronmunoz/dsp/blob/master/statistics/images/q7_scatter.png)
 ## Percentile Plot
 ```python
 bins = np.arange(13, 48, 5)
@@ -37,6 +38,7 @@ thinkplot.Config(xlabel="Mother's age",
                  ylabel='Birth weight (lbs)',
                  xlim=[14, 45], legend=True)
 ```
+>> ![](https://github.com/aaronmunoz/dsp/blob/master/statistics/images/q7_percentile.png)
 ## Coefficients
 ```python
 # Pearson's correlation
