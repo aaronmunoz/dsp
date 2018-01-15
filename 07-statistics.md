@@ -112,7 +112,7 @@ print('Probability of Elvis\' twin being identical: %f' % (probability_elvis_ide
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The main difference between frequentist and Bayesian statistics is how probability is treated. For a frequentist, only repeatable random events(sampling) are suitable forms of probability. Bayesian statistics will often use probabilistic parameters in their models, where a frequentist wouldnt.
 
 ---
 
